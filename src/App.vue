@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { onMounted } from 'vue';
 import Header from './components/header.vue';
 import Main from './components/main.vue';
 import Footer from './components/footer.vue';
@@ -19,6 +20,11 @@ export default {
     Header,
     Main,
     Footer,
+  },
+  setup() {
+    onMounted(() => {
+      document.title = 'Sunnyside Agency | Valdi';
+    });
   },
 };
 </script>
