@@ -1,24 +1,17 @@
-# vue-sunnyside-agency-landing-page
+# Sunnyside Agency Landing Page
+Landing page created using Vue.js 3 and Tailwind CSS for landing page challenge by frontendmentor.io
 
-## Project setup
-```
-npm install
-```
+## Tools Stack
+- Vue.js 3
+- Vue CLI
+- Tailwind CSS
+- Sass
+- ESlint (AirBnB Config)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## How to Use
+To use this project, you can download or clone this repository and then run `npm install`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## How to Run
+- `npm run server` -> running the project in development mode.
+- `npm run build` -> build the project in production mode.
+- `npm run lint` -> run ESlint.
